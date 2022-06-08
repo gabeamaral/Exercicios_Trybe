@@ -1,0 +1,45 @@
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: orange;
+}
+
+h2 {
+    color: green;
+    width: 65px;
+}
+
+p {
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+body {
+    background-color: rgb(255, 400, 200);
+    font-size: 16px;
+    text-align: center;
+}
+
+.lista {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.botao {
+    color: white;
+    padding: 18px 37px;
+    font-size: 20px;
+    /*border: 2px solid red;*/
+    background-color: #11a36a;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imagem-redonda {
+    border-radius: 69%;
+}
