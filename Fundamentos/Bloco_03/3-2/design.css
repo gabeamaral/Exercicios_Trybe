@@ -1,0 +1,30 @@
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: orange;
+}
+
+h2 {
+    color: green;
+    width: 65px;
+}
+
+p {
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+body {
+    background-color: rgb(255, 400, 200);
+    font-size: 16px;
+    text-align: center;
+}
+
+.lista {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
