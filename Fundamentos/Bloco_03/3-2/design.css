@@ -28,3 +28,18 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+.botao {
+    color: white;
+    padding: 18px 37px;
+    font-size: 20px;
+    /*border: 2px solid red;*/
+    background-color: #11a36a;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imagem-redonda {
+    border-radius: 69%;
+}
