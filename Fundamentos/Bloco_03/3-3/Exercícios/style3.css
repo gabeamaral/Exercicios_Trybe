@@ -1,0 +1,61 @@
+ol {
+    background-color: yellow;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+.par {
+    color: green;
+}
+
+h1, h3 {
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.lingua {
+    background-color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+.stack:hover {
+    text-transform: uppercase;
+    color: orange;
+}
+
+.w3:hover {
+    text-transform: uppercase;
+    color: green;
+}
+
+.mdn:hover {
+    text-transform: uppercase;
+    color: black;
+}
+
+.dev:hover {
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.trybe:hover {
+    text-transform: uppercase;
+    color: lightgreen;
+}

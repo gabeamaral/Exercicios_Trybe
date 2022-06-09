@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: orange;
+}
+
+h2 {
+    color: green;
+    width: 2px;
+}
+
+p {
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+body {
+    background-color: rgb(255, 400, 200);
+    font-size: 16px;
+    text-align: center;
+}
+
+.lista {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.botao {
+    color: white;
+    padding: 18px 37px;
+    font-size: 20px;
+    /*border: 2px solid red;*/
+    background-color: #11a36a;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imagem-redonda {
+    border-radius: 69%;
+}
+
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+    padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+    margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+    border: 5px solid black;
+  }
+
+  .super-mario {
+    position: absolute;
+    width: 150px;
+    left: 795px;
+    top: 1616px;
+  }
+  
+  .goomba {
+    position: absolute;
+    width: 100px;
+    top: 1845px;
+    left: 800px;
+  }
+  
+  .baloon {
+    position: absolute;
+    left: 1100px;
+    top: 1520px;
+  }
+  
+  .speach {
+    position: absolute;
+    font-size: 25px;
+    left: 1120px;
+    top: 1575px;
+    z-index: 1;
+  }
+  
+  .bowser {
+    position: absolute;
+    width: 350px;
+    top: 1700px;
+    left: 1200px;
+  }
