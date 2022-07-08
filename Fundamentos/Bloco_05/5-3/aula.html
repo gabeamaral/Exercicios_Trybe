@@ -1,0 +1,34 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleAula.css">
+</head>
+
+<body>
+    <button id="muda">Muda cor</button>
+    <script>
+        window.onload = mostraSOS;
+
+        function mostraSOS() {
+            document.querySelector('body').style.backgroundColor = 'red';
+            let para = document.createElement('p');
+            para.innerText = 'É O ANTARES';
+            document.querySelector('body').appendChild(para);
+        }
+
+        let botao = document.getElementById('muda');
+        botao.addEventListener('click', function () {
+            document.querySelector('body').style.backgroundColor = 'blue';
+            botao.addEventListener('click', function () {
+                document.querySelector('body').style.backgroundColor = 'red';
+            })
+        })
+
+    </script>
+</body>
+
+</html>

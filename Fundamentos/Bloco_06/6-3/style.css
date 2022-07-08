@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  background-color: #5995da;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid red;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.menu a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}

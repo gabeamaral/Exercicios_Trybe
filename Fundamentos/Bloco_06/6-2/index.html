@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="display-4 text-muted">Formulário</h1>
+    <form action="" method="GET">
+        <div class="form-group">
+            <label for="nomeCompleto">Nome Completo:</label>
+            <input class="form-control" type="text" name="nome" id="nomeCompleto" placeholder="Digite seu nome"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Email: </label>
+            <input class="form-control" type="email" name="email" id="inputEmail" placeholder="Digite seu email"
+                required>
+        </div>
+        <div class="form-group">
+            <label for=""> Estado onde você mora:</label>
+            <select class="form-control" name="estado" id="inputEstado">
+                <option value="sp" selected>São Paulo</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="ap">Amapá</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Selecione sua foto:</p>
+            <input class="form-control btn btn-warning" type="file" name="foto" id="fotoPerfil">
+        </div>
+        <div class="form-group">
+            <p>Escreva algo sobre você:</p>
+            <textarea class="form-control" name="sobreMim" id="textarea1" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+            <p>Digite sua senha:</p>
+            <label for="inputSenha"></label>
+            <input class="form-control" type="password" name="senha" id="inputSenha">
+        </div>
+        <div class="form-group">
+            <label for="noticias"></label>
+            <input class="form-control" type="checkbox" name="promocoes" id="noticias"> Deseja receber noticias
+            e promoções incriveis?
+        </div>
+
+        <button class="btn btn-success" type="submit">Enviar formulário</button>
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+    </form>
+</body>
+
+</html>

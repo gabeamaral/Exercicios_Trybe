@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+
+        .main-content .left-content {
+            background-color: green;
+            width: 60%;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .main-content .left-content .small-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+        }
+
+        .main-content .right-content {
+            background-color: blue;
+            width: 60%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .main-content .description {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        //Exercicio 5-1
+        let tagH1 = document.createElement('h1');
+        tagH1.classList = 'title';
+        tagH1.innerText = 'Esse é meu Título!!';
+        document.body.appendChild(tagH1);
+
+        //Exercicio 5-2
+        let exercicio2 = document.createElement('main');
+        exercicio2.classList = 'main-content';
+        document.body.appendChild(exercicio2);
+
+        //Exercicio 5-3
+        let exercicio3 = document.createElement('section');
+        exercicio3.classList = 'center-content';
+        exercicio2.appendChild(exercicio3);
+
+        //Exercicio 5-4
+        let exercicio4 = document.createElement('p');    
+        exercicio3.appendChild(exercicio4);
+        exercicio4.innerText = 'Sou lindo - CR7';
+
+        //Exercicio 5-5
+        let exercicio5 = document.createElement('section');
+        exercicio5.classList = 'left-content';
+        exercicio2.appendChild(exercicio5);
+
+        //Exercicio 5-6
+        let exercicio6 = document.createElement('section');
+        exercicio5.classList = 'right-content';
+        exercicio2.appendChild(exercicio6);
+
+        //Exercicio 5-7
+        let exercicio7 = document.createElement('img');
+        exercicio7.src = 'https://picsum.photos/200';
+        exercicio7.classList = 'small-image';
+        exercicio5.appendChild(exercicio7);
+
+        //Exercicio 5-8
+        let exercicio8 = document.createElement('ul');
+        exercicio8.innerHTML = '<li>um</li> <li>dois</li> <li>três</li> <li>quatro</li> <li>cinco</li> <li>seis</li> <li>sete</li> <li>oito</li> <li>nove</li> <li>dez</li>'
+        exercicio6.appendChild(exercicio8);
+
+        //Exercicio 5-9     
+        for (let index = 0; index <= 3; index += 1) {
+            let exercicio9 = document.createElement('h3');
+            exercicio2.appendChild(exercicio9);
+        }
+        exercicio9.classList('description');
+    </script>
+</body>
+
+</html>
